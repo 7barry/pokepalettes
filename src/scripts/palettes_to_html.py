@@ -1,4 +1,5 @@
 import colorgram
+import subprocess
 
 # convert rgb to hex
 def rgb_to_hex(rgb): return '%02x%02x%02x' % rgb
@@ -47,3 +48,5 @@ for pokemon_id in range(1, 252):
   f = open("../../build/html/{}.html".format(pokemon_id), "w")
   f.write("".join(html))
   f.close()
+
+subprocess.call("rename.sh", shell=True)
