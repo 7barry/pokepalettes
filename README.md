@@ -8,19 +8,23 @@
 
 #### html
 
+Requires Python and [Colorgram](https://github.com/obskyr/colorgram.py).
+
 ```bash
 python palettes_to_html.py
 ```
 
 #### png
 
-This script is intended to be run after `palettes_to_html.py` and requires Firefox.
+Requires Firefox and is meant to be run after `palettes_to_html.py`.
 
 ```bash
 ./palettes_to_png.sh
 ```
 
 #### txt
+
+Requires Python and [Colorgram](https://github.com/obskyr/colorgram.py).
 
 ```bash
 python palettes_to_txt.py
