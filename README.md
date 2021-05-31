@@ -4,6 +4,8 @@
 
 16-bit palettes that represent Pokémon. [PokePalettes](https://opensea.io/collection/pokepalettes/) is an NFT collection on OpenSea. Feel free to use these palettes for anything. If you do, [start a new issue](https://github.com/BarryMode/pokepalettes/issues/new) to share how you used it. Please include links or pictures so everyone who comes here will have a showcase.
 
+Don't know how to build? No problem! Just go to the `build` folder and you'll find the results. The build scripts are useful not just to produce this same data/content, but also can be modified to create more projects like this one.
+
 ## Build
 
 #### html
