@@ -14,6 +14,8 @@ python palettes_to_html.py
 
 #### png
 
+This script is intended to be run after `palettes_to_html.py` and requires Firefox.
+
 ```bash
 ./palettes_to_png.sh
 ```
